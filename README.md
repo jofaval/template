@@ -237,5 +237,6 @@ console.log('The answer is 42.');
 
 ## Credits
 
+- https://soulaimanghanem.medium.com/github-repository-structure-best-practices-248e6effc405
 - The internet community
 - `WholesomeMemes` on Twitter
