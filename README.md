@@ -55,7 +55,32 @@ Use `node.js` for a same-lang environment.
 
 ## Documentation
 
-All the documentation can be found either at our [wiki](./wiki) or at our `docs/` folder
+All the documentation can be found either at our [wiki](./wiki) or at our `docs/` folder.
+
+### Folder Structure
+
+```explorer
+template
+ ┣ .github
+ ┃ ┗ actions
+ ┃ ┃ ┗ main.yml
+ ┣ build
+ ┃ ┗ BUILDS_HERE
+ ┣ docs
+ ┃ ┗ en
+ ┃ ┃ ┗ parameters.md
+ ┣ src
+ ┃ ┗ YOUR_CODE_HERE
+ ┣ tests
+ ┃ ┗ YOUR_TESTS_HERE
+ ┣ tools
+ ┃ ┗ YOUR_UTILITIES_HERE
+ ┣ .gitignore
+ ┣ CHANGELOG.md
+ ┣ LICENSE.md
+ ┣ README.md
+ ┗ _config.yml
+ ```
 
 ## How to set it up?
 
