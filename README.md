@@ -265,3 +265,4 @@ console.log('The answer is 42.');
 - https://soulaimanghanem.medium.com/github-repository-structure-best-practices-248e6effc405
 - The internet community
 - `WholesomeMemes` on Twitter
+- Markdown tables using: https://www.tablesgenerator.com/markdown_tables
