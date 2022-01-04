@@ -243,7 +243,7 @@ cli make endpoint
 
 ## Legal notice
 
-This project can't and won't be used int **NFTs**.
+This project can't and won't be used in **NFTs**.
 
 ## License
 
