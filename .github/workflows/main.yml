@@ -1,3 +1,37 @@
 # All your branches, your CI/CD
-
 # Complete documentation at: https://docs.github.com/en/actions
+
+name: Main
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  Deployment:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository code
+        uses: actions/checkout@v2
+
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v2.5.1
+
+#       - name: Install packages
+#         run: npm install
+#         env:
+#           CI: false
+# 
+#       - name: Prepare the build
+#         run: npm run build
+#         env:
+#           CI: false
+# 
+#       - name: Deploy 🚀
+#         uses: JamesIves/github-pages-deploy-action@4.1.7
+#         with:
+#           branch: gh-pages
+#           folder: build
+#         env:
+#           CI: false
